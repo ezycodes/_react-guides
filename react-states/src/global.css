@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+html, body {
+  @apply bg-slate-800 text-slate-100
+}
+
+main {
+  @apply py-10
+  max-w-screen-2xl
+  mx-auto
+  px-2 lg:px-6
+}
+
+#root {
+  @apply p-0 m-0
+}
